@@ -1,0 +1,92 @@
+/* header */
+body header h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    margin-top: -.5em;
+    padding: 0.8em;
+    background-color: black;
+    color: #b0c0cf;
+    border-top: 0.1em solid #b0c0cf;
+}
+
+
+
+/* Navbar */
+.sidenav {
+    height: 100%; 
+    width: 10em; 
+    position: absolute;
+    z-index: 1; 
+    top:1.25;
+    left:0;
+    margin-top: -1.35em;
+    margin-left: -.5em;
+    background-color: #5f6f6f; 
+    overflow-x: hidden; 
+    padding-top: 1.25em;
+}
+.sidenav a {
+    padding: 0.375em 0.5em 0.375em 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b0c0cf;
+    display: block;
+    background-color: #5f6f6f;
+    border-color: black;
+    border-bottom-style: solid;
+    border-width: 0.05em;
+    margin-top: 0em;
+}
+
+.top a{
+    margin-top: -1em;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #7090a0; 
+    border-left: 0.1em solid #b0c0cf;
+}
+
+
+.bodytext{
+    
+    margin-left: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.column {
+    float: left;
+    width: 28%;
+    padding-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Pic1 {
+    float: left;
+    width: 28%;
+    padding-right: 5%;
+    
+    
+}
+
+
+.PicRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+}
+
+.h2{
+    text-align: center;
+}
